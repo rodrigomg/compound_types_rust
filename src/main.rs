@@ -2,6 +2,7 @@ fn main() {
     tuple_sample();
     tuple_destructure();
     tuple_destructure_by_index();
+    simple_array();
 }
 
 fn tuple_sample(){
@@ -25,4 +26,9 @@ fn tuple_destructure_by_index(){
     println!("The value of one is: {}", one);
     println!("The value of two is: {}", two);
     println!("The value of last is: {}", last);
+}
+
+fn simple_array(){
+    let a = [3,5,6,7,9];
+    println!("The value of array a are: {:?}", a);
 }
